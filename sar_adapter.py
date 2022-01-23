@@ -1,3 +1,7 @@
+# Copyright (c) Quantum0 2022
+# http://quantum0.ru
+# https://t.me/quantum0
+
 # ===== CONFIG =====
 
 HEART_EMOTION_BUTTON = 'num4'

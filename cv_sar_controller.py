@@ -1,4 +1,6 @@
-# Here will be SAR controller using Computer Vision
+#!/usr/bin/env python3
+
+# Copyright (c) Quantum0 2022
 
 # ===== CONFIG =====
 

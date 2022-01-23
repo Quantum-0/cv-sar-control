@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 
+# Copyright (c) Quantum0 2022
+
 # ===== CONFIG =====
 
 YES_AXIS = 'Y'
