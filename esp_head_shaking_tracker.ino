@@ -1,0 +1,1 @@
+// Here will be firmware for ESP8266 using gyroscope to track head shaking
