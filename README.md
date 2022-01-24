@@ -38,7 +38,7 @@ It can be placed on your headset for example. Microcontroller detects your head 
 ## Install Instruction (for CV solution)
 
 - Install [Python Interpreter](https://www.python.org/)
-- Install requirements with PIP: `pip install mediapipe opencv-python win32gui`
+- Install requirements with PIP: `pip install mediapipe opencv-python pywin32`
 - Run the script (cv_sar_controller.py) with the interpreter
 - Open the game and have fun
 
