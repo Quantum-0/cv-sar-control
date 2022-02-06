@@ -203,22 +203,16 @@ while cap.isOpened():
         else:
             is_hand = False
 
-        # Display the nose direction
-        nose_3d_projection, jacobian = cv2.projectPoints(nose_3d, rot_vec, trans_vec, cam_matrix, dist_matrix)
 
-        p1 = (int(nose_2d[0]), int(nose_2d[1]))
-        p2 = (int(nose_3d_projection[0][0][0]), int(nose_3d_projection[0][0][1]))
-
-        cv2.line(image, p1, p2, (255, 0, 0), 2)
-        cv2.line(image, (int(mouth_left[0]), int(mouth_left[1])), (int(mouth_right[0]), int(mouth_right[1])),
-                 (0, 0, 255), 2)
-        cv2.line(image, (int(mouth_up[0]), int(mouth_up[1])), (int(mouth_down[0]), int(mouth_down[1])),
-                 (0, 0, 255), 2)
-
-        # Add the text on the image
-        # cv2.putText(image, text, (20, 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
-
-    cv2.imshow('Head Pose Estimation', image)
+    # TODO: show percent of detection emotions
+    #
+    #     cv2.line(image, (int(mouth_left[0]), int(mouth_left[1])), (int(mouth_right[0]), int(mouth_right[1])),
+    #              (0, 0, 255), 2)
+    #     cv2.line(image, (int(mouth_up[0]), int(mouth_up[1])), (int(mouth_down[0]), int(mouth_down[1])),
+    #              (0, 0, 255), 2)
+    #     # cv2.putText(image, text, (20, 20), cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+    #
+    # cv2.imshow('Head Pose Estimation', image)
 
     if cv2.waitKey(5) & 0xFF == 27:
         break
