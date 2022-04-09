@@ -44,7 +44,11 @@ It can be placed on your headset for example. Microcontroller detects your head 
 
 ## Demo
 
-I hope I'll add some photos/videos later >w<
+### Yes/No/Hello
+[![Yes/No/Hello Demo Video](https://img.youtube.com/vi/PyscIRAW2p0/0.jpg)](https://www.youtube.com/watch?v=PyscIRAW2p0)
+
+### Moving Control
+[![Moving Control Demo Video](https://img.youtube.com/vi/i26YWqk0x7U/0.jpg)](https://www.youtube.com/watch?v=i26YWqk0x7U)
 
 ## Releases
 
